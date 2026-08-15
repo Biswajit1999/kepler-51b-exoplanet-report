@@ -1,4 +1,11 @@
 # Kepler-51 b: Stress-Testing a Super-Puff with TESS
+<!-- RESEARCH-IDENTITY-START -->
+**Independent research report by [Biswajit Jana](https://biswajit1999.github.io/Biswajit_Jana.github.io/)** · [Live report](https://biswajit1999.github.io/kepler-51b-exoplanet-report/) · [ORCID](https://orcid.org/0009-0002-2411-1891) · [Complete research portfolio](https://biswajit1999.github.io/Biswajit_Jana.github.io/research/exoplanets/)
+<!-- RESEARCH-IDENTITY-END -->
+
+
+
+
 
 <!-- TARGET-IDENTITY-START -->
 <p align="center">
