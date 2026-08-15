@@ -1,10 +1,20 @@
-# Kepler-51 b — Real TESS Transit Report
+# Kepler-51 b: Stress-Testing a Super-Puff with TESS
 
+<!-- TARGET-IDENTITY-START -->
+<p align="center">
+  <img src="assets/artist_concept.webp" alt="Artist's interpretation of Kepler-51 b near its host star" width="900">
+</p>
+
+<p align="center"><em>AI-generated artist's interpretation informed by the measured system properties; not a direct image.</em></p>
+
+**Super-puff · weak TESS support · null-result discipline**
+
+An iconic ultra-low-density planet used as a transparent null-result case: this TESS sector does not pass the report’s predeclared transit-support threshold.
+<!-- TARGET-IDENTITY-END -->
 <p align="center">
   <img src="figures/kepler51b_tess_transit.png" alt="Phase-folded real TESS transit light curve of Kepler-51 b" width="760">
 </p>
 
-One real public TESS SPOC light curve; one historical NASA Exoplanet Archive ephemeris; one timing-adjusted, limb-darkened transit fit.
 
 **[Open the full report](https://biswajit1999.github.io/kepler-51b-exoplanet-report/)** — the live GitHub Pages version.
 
