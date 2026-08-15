@@ -1,0 +1,2 @@
+pl_name,hostname,ra,dec,pl_orbper,pl_tranmid,pl_trandur,pl_rade,pl_bmasse,pl_eqt,pl_orbsmax,sy_dist,sy_tmag,st_teff,st_rad,st_mass,disc_year,discoverymethod,disc_refname,disc_pubdate,disc_facility
+Kepler-51 b,Kepler-51,296.4797624,49.9376486,45.154,2455714.5977,5.797,7.1,2.1,543.0,0.2514,783.831,14.2045,6018.0,0.94,1.04,2012,Transit,<a refstr=STEFFEN_ET_AL__2013 href=https://ui.adsabs.harvard.edu/abs/2013MNRAS.428.1077S/abstract target=ref> Steffen et al. 2013 </a>,2013-01,Kepler
