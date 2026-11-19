@@ -1,0 +1,345 @@
+{
+  "schema": 1,
+  "project": "Kepler-51 b: Stress-Testing a Super-Puff with TESS",
+  "tables": [
+    {
+      "path": "data/system_parameters.csv",
+      "label": "System parameters",
+      "role": "Data and provenance",
+      "rows": 1,
+      "width_mismatches": 0,
+      "columns": [
+        {
+          "name": "pl_name",
+          "blank": 0,
+          "text": 1,
+          "finite": 0,
+          "nonfinite": 0
+        },
+        {
+          "name": "hostname",
+          "blank": 0,
+          "text": 1,
+          "finite": 0,
+          "nonfinite": 0
+        },
+        {
+          "name": "ra",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 296.4797624,
+          "maximum": 296.4797624
+        },
+        {
+          "name": "dec",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 49.9376486,
+          "maximum": 49.9376486
+        },
+        {
+          "name": "pl_orbper",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 45.154,
+          "maximum": 45.154
+        },
+        {
+          "name": "pl_tranmid",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 2455714.5977,
+          "maximum": 2455714.5977
+        },
+        {
+          "name": "pl_trandur",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 5.797,
+          "maximum": 5.797
+        },
+        {
+          "name": "pl_rade",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 7.1,
+          "maximum": 7.1
+        },
+        {
+          "name": "pl_bmasse",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 2.1,
+          "maximum": 2.1
+        },
+        {
+          "name": "pl_eqt",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 543.0,
+          "maximum": 543.0
+        },
+        {
+          "name": "pl_orbsmax",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 0.2514,
+          "maximum": 0.2514
+        },
+        {
+          "name": "sy_dist",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 783.831,
+          "maximum": 783.831
+        },
+        {
+          "name": "sy_tmag",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 14.2045,
+          "maximum": 14.2045
+        },
+        {
+          "name": "st_teff",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 6018.0,
+          "maximum": 6018.0
+        },
+        {
+          "name": "st_rad",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 0.94,
+          "maximum": 0.94
+        },
+        {
+          "name": "st_mass",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 1.04,
+          "maximum": 1.04
+        },
+        {
+          "name": "disc_year",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 2012.0,
+          "maximum": 2012.0
+        },
+        {
+          "name": "discoverymethod",
+          "blank": 0,
+          "text": 1,
+          "finite": 0,
+          "nonfinite": 0
+        },
+        {
+          "name": "disc_refname",
+          "blank": 0,
+          "text": 1,
+          "finite": 0,
+          "nonfinite": 0
+        },
+        {
+          "name": "disc_pubdate",
+          "blank": 0,
+          "text": 1,
+          "finite": 0,
+          "nonfinite": 0
+        },
+        {
+          "name": "disc_facility",
+          "blank": 0,
+          "text": 1,
+          "finite": 0,
+          "nonfinite": 0
+        }
+      ]
+    },
+    {
+      "path": "figures/summary_statistics.csv",
+      "label": "Summary statistics",
+      "role": "Tables and numerical results",
+      "rows": 36,
+      "width_mismatches": 0,
+      "columns": [
+        {
+          "name": "quantity",
+          "blank": 0,
+          "text": 36,
+          "finite": 0,
+          "nonfinite": 0
+        },
+        {
+          "name": "value",
+          "blank": 0,
+          "text": 1,
+          "finite": 35,
+          "nonfinite": 0
+        },
+        {
+          "name": "unit",
+          "blank": 28,
+          "text": 8,
+          "finite": 0,
+          "nonfinite": 0
+        }
+      ]
+    },
+    {
+      "path": "figures/multisector_statistics.csv",
+      "label": "Multisector statistics",
+      "role": "Tables and numerical results",
+      "rows": 1,
+      "width_mismatches": 0,
+      "columns": [
+        {
+          "name": "sector",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 14.0,
+          "maximum": 14.0
+        },
+        {
+          "name": "filename",
+          "blank": 0,
+          "text": 1,
+          "finite": 0,
+          "nonfinite": 0
+        },
+        {
+          "name": "transit_events",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        {
+          "name": "n_points",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 1038.0,
+          "maximum": 1038.0
+        },
+        {
+          "name": "transit_supported",
+          "blank": 0,
+          "text": 1,
+          "finite": 0,
+          "nonfinite": 0
+        },
+        {
+          "name": "delta_bic",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": -4.822523863,
+          "maximum": -4.822523863
+        },
+        {
+          "name": "timing_shift_hours",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 3.477873707,
+          "maximum": 3.477873707
+        },
+        {
+          "name": "depth_ppm",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 10830.89054,
+          "maximum": 10830.89054
+        },
+        {
+          "name": "formal_error_ppm",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 2770.333473,
+          "maximum": 2770.333473
+        },
+        {
+          "name": "scatter_scaled_error_ppm",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 2770.333473,
+          "maximum": 2770.333473
+        },
+        {
+          "name": "reduced_chi_square",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 0.9083384571,
+          "maximum": 0.9083384571
+        },
+        {
+          "name": "beta",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 1.041658164,
+          "maximum": 1.041658164
+        },
+        {
+          "name": "robust_error_ppm",
+          "blank": 0,
+          "text": 0,
+          "finite": 1,
+          "nonfinite": 0,
+          "minimum": 2885.740478,
+          "maximum": 2885.740478
+        }
+      ]
+    }
+  ],
+  "excluded": []
+}
