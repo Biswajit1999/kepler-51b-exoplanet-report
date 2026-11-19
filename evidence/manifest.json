@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "project": "Kepler-51 b: Stress-Testing a Super-Puff with TESS",
+  "repository": "https://github.com/Biswajit1999/kepler-51b-exoplanet-report",
+  "files": [
+    {
+      "label": "Data source notes",
+      "path": "data/SOURCE.md",
+      "role": "Data and provenance",
+      "bytes": 2425,
+      "sha256": "f4d278e041541dbd727a9846619c79b57d8f3b59aa362c33f18fa1a73bb16503",
+      "hash_basis": "LF-normalised text",
+      "format": "MD"
+    },
+    {
+      "label": "System parameters",
+      "path": "data/system_parameters.csv",
+      "role": "Data and provenance",
+      "bytes": 485,
+      "sha256": "14e0353a24096a61ea5a94d36b735876730c55eba0cedb5f59b568ee034d98f7",
+      "hash_basis": "LF-normalised text",
+      "format": "CSV",
+      "rows": 1,
+      "columns": 21,
+      "headers": [
+        "pl_name",
+        "hostname",
+        "ra",
+        "dec",
+        "pl_orbper",
+        "pl_tranmid",
+        "pl_trandur"
+      ],
+      "preview": [
+        [
+          "Kepler-51 b",
+          "Kepler-51",
+          "296.4797624",
+          "49.9376486",
+          "45.154",
+          "2455714.5977",
+          "5.797"
+        ]
+      ]
+    },
+    {
+      "label": "Tess2019198215352 s0014 0000000027846348 0150 s lc",
+      "path": "data/tess2019198215352-s0014-0000000027846348-0150-s_lc.fits",
+      "role": "Data and provenance",
+      "bytes": 1964160,
+      "sha256": "99c0e425395d9e9c95e8f51e6c5405743125d927fae75f3568b556921ca1a13d",
+      "hash_basis": "exact bytes",
+      "format": "FITS"
+    },
+    {
+      "label": "Tess2019226182529 s0015 0000000027846348 0151 s lc",
+      "path": "data/tess2019226182529-s0015-0000000027846348-0151-s_lc.fits",
+      "role": "Data and provenance",
+      "bytes": 1906560,
+      "sha256": "3f35e36512cbdec9bb7bf3ef432657ee024453c2c2687230be6c8b8420fb6fce",
+      "hash_basis": "exact bytes",
+      "format": "FITS"
+    },
+    {
+      "label": "Summary statistics",
+      "path": "figures/summary_statistics.csv",
+      "role": "Tables and numerical results",
+      "bytes": 1185,
+      "sha256": "31af401dc32e1974935c7eec33943bcb719b0df500058b7b6b99c26c71d8b228",
+      "hash_basis": "LF-normalised text",
+      "format": "CSV",
+      "rows": 36,
+      "columns": 3,
+      "headers": [
+        "quantity",
+        "value",
+        "unit"
+      ],
+      "preview": [
+        [
+          "sector",
+          "14",
+          "TESS sector"
+        ],
+        [
+          "period_days",
+          "45.154",
+          "days; NASA Exoplanet Archive"
+        ],
+        [
+          "published_duration_hours",
+          "5.797",
+          "hours; NASA Exoplanet Archive"
+        ],
+        [
+          "a_over_rstar",
+          "57.5096221277",
+          "fixed from saved a and stellar radius"
+        ]
+      ]
+    },
+    {
+      "label": "Multisector statistics",
+      "path": "figures/multisector_statistics.csv",
+      "role": "Tables and numerical results",
+      "bytes": 350,
+      "sha256": "3add726a49da97fc4cdcd55bfb29cd3e6b76fb72dbe110717ca9d8b3c53549c1",
+      "hash_basis": "LF-normalised text",
+      "format": "CSV",
+      "rows": 1,
+      "columns": 13,
+      "headers": [
+        "sector",
+        "filename",
+        "transit_events",
+        "n_points",
+        "transit_supported",
+        "delta_bic",
+        "timing_shift_hours"
+      ],
+      "preview": [
+        [
+          "14",
+          "tess2019198215352-s0014-0000000027846348-0150-s_lc.fits",
+          "1",
+          "1038",
+          "False",
+          "-4.822523863",
+          "3.477873707"
+        ]
+      ]
+    },
+    {
+      "label": "Kepler51b depth consistency",
+      "path": "figures/kepler51b_depth_consistency.png",
+      "role": "Figures",
+      "bytes": 52224,
+      "sha256": "2d0a751725bb54539757fd09073746b072da98be816fa0f206de7f4eb72a4dd8",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    },
+    {
+      "label": "Kepler51b multisector transits",
+      "path": "figures/kepler51b_multisector_transits.png",
+      "role": "Figures",
+      "bytes": 72472,
+      "sha256": "905848f00772254895b6dc9c1298619fd4c6c4ff5cb6cd770f06382012543ebc",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    },
+    {
+      "label": "Kepler51b noise diagnostics",
+      "path": "figures/kepler51b_noise_diagnostics.png",
+      "role": "Figures",
+      "bytes": 85389,
+      "sha256": "21438b3bc7ba4ea08d534b79ff6c4d7cac82e2c6662275684ed3dee96a54fcfa",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    },
+    {
+      "label": "Kepler51b tess transit",
+      "path": "figures/kepler51b_tess_transit.png",
+      "role": "Figures",
+      "bytes": 171286,
+      "sha256": "a04e0be15061a16c616676dd84f947a7ae5415610097424dbf7dd8e883cfe8cb",
+      "hash_basis": "exact bytes",
+      "format": "PNG"
+    }
+  ]
+}
